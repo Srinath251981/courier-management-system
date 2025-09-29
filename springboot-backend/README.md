@@ -37,6 +37,24 @@
 
 A snippet of the APIs are shown below : 
 
-       <img width="281" height="570" alt="image" src="https://github.com/user-attachments/assets/b326cdee-8906-4553-b58b-a3982c76d1da" />
+<img width="281" height="570" alt="image" src="https://github.com/user-attachments/assets/b326cdee-8906-4553-b58b-a3982c76d1da" />
+
+
+**Project Structure**
+
+     springboot-backend/
+     │── courier-management-project/src/main/java/com/srinath/courier_management_projet/
+     |   |
+     │   ├── controller/      # REST controllers
+     │   ├── service/         # Business logic
+     │   ├── repository/      # Data access layer
+     │   ├── model/           # Entities (Courier, Staff, etc.)
+     │   
+     │
+     │── src/main/resources/
+     │   ├── application.properties
+     │
+     │── pom.xml              # Maven dependencies
+
 
 
