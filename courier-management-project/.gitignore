@@ -3,8 +3,6 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-src/main/java/com/srinath/courier_management_project/config
-src/main/java/com/srinath/courier_management_project/model/StaffPrincipal.java
 
 ### STS ###
 .apt_generated
