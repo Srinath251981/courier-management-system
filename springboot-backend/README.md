@@ -5,7 +5,7 @@ It provides REST APIs for courier management, staff management, authentication, 
 
 
 
-**Features : **
+**Features :**
 
  Courier Management (Add, update, delete, track)
  
@@ -21,7 +21,7 @@ It provides REST APIs for courier management, staff management, authentication, 
 
 
 
-**Tech Stack : **
+**Tech Stack :**
 
 Java 24+
 
