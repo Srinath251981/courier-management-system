@@ -39,14 +39,14 @@
 **Project Structure :**
 
 
-react-frontend/
-│── src/
-│   ├── shared/           # Reusable UI components
-│   ├── components/       # Page components (Dashboard, Login, etc.)
-│   ├── App.css           # Icons & CSS
-│   ├── App.tsx           # Main app component
-│   └── index.tsx         # Entry point
-│── package.json
+    react-frontend/
+    │── src/
+    │   ├── shared/           # Reusable UI components
+    │   ├── components/       # Page components (Dashboard, Login, etc.)
+    │   ├── App.css           # Icons & CSS
+    │   ├── App.tsx           # Main app component
+    │   └── index.tsx         # Entry point
+    │── package.json
 
 **Screenshots :** 
 
