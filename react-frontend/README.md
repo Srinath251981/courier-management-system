@@ -1,42 +1,54 @@
-**Courier Management System - Backend (Spring Boot)**
+**Courier Management System - Frontend (React + TypeScript)**
 
-This is the backend service for the Courier Management System, built with Spring Boot.
-It provides REST APIs for courier management, staff management, authentication, and tracking.
-
-
-
-**Features : **
-
- Courier Management (Add, update, delete, track)
- 
- Staff Management (Register, manage staff accounts)
- 
- Role-based Access Control (Admin / Staff)
- 
- Database Integration with PostgreSQL/MySQL
- 
- REST APIs for frontend integration
- 
- Authentication & Authorization using Spring Security + JWT (in development)
+    This is the frontend application for the Courier Management System, built with React + TypeScript.
+    It provides a responsive UI for admins and staff to manage couriers, track deliveries, and handle staff accounts.
 
 
 
-**Tech Stack : **
-
-Java 24+
-
-Spring Boot 3.x
-
-Spring Data JPA (Hibernate)
-
-PostgreSQL / MySQL
-
-Maven
+**Features :**
 
 
+    Login system for Admin & Staff
+   
+    Dashboard with courier and staff management
+   
+    Add / Update / Delete couriers
+   
+    Manage staff members (Admin only)
+   
+    Courier tracking system
+   
+    Responsive design with CSS
 
-A snippet of the APIs are shown below : 
 
-<img width="281" height="570" alt="image" src="https://github.com/user-attachments/assets/b326cdee-8906-4553-b58b-a3982c76d1da" />
+
+**Tech Stack :**
+
+    React 19 + TypeScript
+   
+    React Router DOM (for navigation)
+   
+    Fetch API (for backend calls)
+   
+    Custom CSS
+   
+    State Management – React Hooks / Context API
+
+
+
+**Project Structure :**
+
+
+react-frontend/
+│── src/
+│   ├── shared/           # Reusable UI components
+│   ├── components/       # Page components (Dashboard, Login, etc.)
+│   ├── App.css           # Icons & CSS
+│   ├── App.tsx           # Main app component
+│   └── index.tsx         # Entry point
+│── package.json
+
+**Screenshots :** 
+
 
 
