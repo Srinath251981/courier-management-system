@@ -104,9 +104,17 @@ export default function StaffFp() {
           <input
             value={pwd1}
             type="Password"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$"
             className="signup-form-input"
             onChange={(e) => setpwd1(e.target.value)}
             required
+             title="Password must contain :
+            Atleast 1 Uppercase letter,
+            Atleast 1 Lowercase letter,
+            Atleast 1 digit,
+            Atleast 1 symbol from : (! @ # $ % ^ & *),
+            Minimum length of 8 characters
+            "
           ></input>
         </div>
 
