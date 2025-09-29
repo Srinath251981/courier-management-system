@@ -1,4 +1,4 @@
-TCourier Management System - Backend (Spring Boot)
+Courier Management System - Backend (Spring Boot)
 
 This is the backend service for the Courier Management System, built with Spring Boot.
 It provides REST APIs for courier management, staff management, authentication, and tracking.
@@ -6,18 +6,27 @@ It provides REST APIs for courier management, staff management, authentication, 
 Features : 
 
  Courier Management (Add, update, delete, track)
+ 
  Staff Management (Register, manage staff accounts)
+ 
  Role-based Access Control (Admin / Staff)
+ 
  Database Integration with PostgreSQL/MySQL
+ 
  REST APIs for frontend integration
+ 
  Authentication & Authorization using Spring Security + JWT (in development)
 
 Tech Stack : 
 
 Java 24+
+
 Spring Boot 3.x
+
 Spring Data JPA (Hibernate)
+
 PostgreSQL / MySQL
+
 Maven
 
 A snippet of the APIs are shown below : 
