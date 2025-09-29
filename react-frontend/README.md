@@ -18,7 +18,7 @@
    
     Courier tracking system
    
-    Responsive design with CSS
+    Responsive design with CSS (Included with Pagination and Search on Tabular data)
 
     Interactive forms with field validations
 
